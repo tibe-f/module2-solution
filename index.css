@@ -1,24 +1,25 @@
 *{
-    margin: 0;
-    padding: 0;
+    padding:0;
+    margin:0;
 }
+
 h1{
     text-align: center;
     text-transform: capitalize;
-    margin: 1em;
     font-family: 'Gemunu Libre', sans-serif;;
+    margin: 1.5rem;
 }
-
+.row{
+    width: 100%;
+}
 .sec{
     position: relative;
-    box-sizing: border-box;
-    width: 95%;
-    margin: 20px 20px;
-    padding:35px 10px 10px 10px;
-    
+    margin: 15px;
+    padding: 10px ;
+    background-color: darkgray;
     border: 1px solid black;
-    background-color: darkgrey;
-    
+    width: 95%;
+    box-sizing: border-box;
 }
 .sec-title{
     position: absolute;
@@ -44,14 +45,7 @@ h1{
 }
 .title3{
     background-color: darkgoldenrod;
-    color: blue;
-}
-.row{
-    width: 100%;    
-    display: flex;
-    
-    margin-right: 10px;
-    margin-left: 10px;
+    color: white;
 }
 
 @media (min-width: 992px){
@@ -97,10 +91,10 @@ h1{
     width: 100%;
   }
 }
-
 @media (min-width:768px) and (max-width: 991px){
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5,
-    .col-md-6, .col-md-7,.col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+    .col-md-6, .col-md-7,.col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12
+    {
       float:left;
     }
   .col-md-1{
@@ -140,4 +134,3 @@ h1{
     width: 100%;
   }
 }
-
