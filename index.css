@@ -6,7 +6,6 @@
 h1{
     text-align: center;
     text-transform: capitalize;
-    font-family: 'Gemunu Libre', sans-serif;;
     margin: 1.5rem;
 }
 .row{
@@ -19,21 +18,30 @@ h1{
     background-color: darkgray;
     border: 1px solid black;
     width: 95%;
+    height: 200px;
     box-sizing: border-box;
 }
 .sec-title{
+    
     position: absolute;
     top: 0;
     right: 0;
     border: 1px solid black;
-    padding: 5px 15px 5px 15px;
-    
+    padding: 10px 15px 10px 15px;
+    font-size: large;
     font-weight: 800;
     text-transform: capitalize;
     width: 3em;
     text-align: center;
-    font-family: 'Gemunu Libre', sans-serif;
-    letter-spacing: 0.1em;
+    font-family:'Times New Roman', Times, serif; 
+    
+
+}
+.dumy{
+  font-size:larger;
+  clear: both;
+  display: flex;
+  padding: 30px 20px 20px 20px;
 
 }
 .title1{
@@ -45,7 +53,7 @@ h1{
 }
 .title3{
     background-color: darkgoldenrod;
-    color: white;
+    color: black;
 }
 
 @media (min-width: 992px){
